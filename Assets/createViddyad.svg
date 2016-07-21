@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>copy outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M52.6666667,30.3333333 L52.6666667,25.659737 C52.6666667,24.3769327 51.6219977,23.3333333 50.3333333,23.3333333 C49.0356846,23.3333333 48,24.3748997 48,25.659737 L48,30.3333333 L43.3264037,30.3333333 C42.0435994,30.3333333 41,31.3780023 41,32.6666667 C41,33.9643154 42.0415664,35 43.3264037,35 L48,35 L48,39.6735963 C48,40.9564006 49.0446689,42 50.3333333,42 C51.6309821,42 52.6666667,40.9584336 52.6666667,39.6735963 L52.6666667,35 L57.340263,35 C58.6230673,35 59.6666667,33.9553311 59.6666667,32.6666667 C59.6666667,31.3690179 58.6251003,30.3333333 57.340263,30.3333333 L52.6666667,30.3333333 Z M36.3333333,9.33333333 L36.3333333,2.00520833 C36.3333333,0.897762351 37.2238911,0 38.3385417,0 L80.9947917,0 C82.1022376,0 83,0.890557766 83,2.00520833 L83,44.6614583 C83,45.7689043 82.1094422,46.6666667 80.9947917,46.6666667 L78.3333333,46.6666667 L78.3333333,4.66666667 L36.3333333,4.66666667 L36.3333333,9.33333333 L71.6614583,9.33333333 C72.7689043,9.33333333 73.6666667,10.2238911 73.6666667,11.3385417 L73.6666667,53.9947917 C73.6666667,55.1022376 72.7761089,56 71.6614583,56 L29.0052083,56 C27.8977624,56 27,55.1094422 27,53.9947917 L27,11.3385417 C27,10.2310957 27.8905578,9.33333333 29.0052083,9.33333333 L36.3333333,9.33333333 Z M31.6666667,14 L69,14 L69,51.3333333 L31.6666667,51.3333333 L31.6666667,14 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-Landing-State---With-Media" transform="translate(-317.000000, -269.000000)">
+            <g id="Group-22" transform="translate(257.000000, 244.000000)">
+                <g id="Group-3-Copy">
+                    <g id="Group-26" transform="translate(34.000000, 26.000000)">
+                        <g id="copy-outline">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

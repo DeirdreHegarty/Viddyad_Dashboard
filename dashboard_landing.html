@@ -1,0 +1,126 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Dashboard</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<!-- your dashboard header-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12" id="dashboardHeader">
+			<h1 id="headerText">YOUR DASHBOARD</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class ="col-md-12 col-sm-12 col-xs-12" id="navBtnsRow1">
+			<div class="row" id="navBtnsRow2">
+				<div class="col-md-2" id="pad"></div>
+				<div class="col-md-2" id="createViddyAdBtn"><img src="Assets/createViddyad.svg"></img><br/><p>Create a Viddyad</p></div>
+				<div class="col-md-2" id="dashboardHomeBtn"><img src="Assets/dashHome.svg"></img><br/><p>Dashboard Home</p></div>
+				<div class="col-md-2" id="uploadMediaBtn"><img src="Assets/uploadMedia.svg"></img><br/><p>Upload Media</p></div>
+				<div class="col-md-2" id="myMediaBtn"><img src="Assets/myMedia.svg"></img><br/><p>My Media</p></div>
+				<div class="col-md-2" id="pad"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container" id="bodyCols">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-8" >
+			<div class="row">
+			<!-- start of user col -->
+				<div class="col-md-4" id="userInfo">
+					<div class="row">
+						<div class="col-md-offset-4 col-md-4" >
+							<img id="userImg" src="Assets/userIcon.svg"></img>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p id="userName">Name here</p>
+							<p id="dateJoined">date joined here</p>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10" id="userBtns">
+							<img id="userBtnsImgs" src="Assets/smallMedia.svg"></img>
+							<p id="userBtnsText">Media</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class=" col-md-offset-1 col-md-10" id="userBtns">
+							<img d="userBtnsImgs" src="Assets/smallAccount.svg"></img>
+							<p id="userBtnsText">Account</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10" id="userBtns">
+							<img d="userBtnsImgs" src="Assets/log.svg"></img>
+							<p id="userBtnsText">Logout</p>
+						</div>
+					</div>
+				</div>
+			<!-- end of user col -->
+
+
+			<!-- start of right side-->
+				<div class="col-md-8" id="whitecol">
+					<!-- start of top white col -->
+					<div class="row">
+						<div class="col-md-12" >
+							<p id="whiteHeadings">YOUR VIDEOS</p>
+						</div>
+					</div>
+					<!-- dynamically generated code here for users' videos -->
+					<div class="row">
+						<div class="col-md-12">
+							<p id="whiteHeadings">YOUR FAVOURITES</p>
+						</div>
+					</div>
+					<!-- dynamically generated code here for users' favourites -->	
+				</div>
+				<!-- end of top white col -->
+			</div>
+			<!-- end of row -->
+			<br/>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-8" id="whitecol">
+					<div class="row">
+						<div class="col-md-12">
+							<p id="whiteHeadings">PROMOTE YOUR VIDEO ADS</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div>facebook</div>
+							<div>linkedin</div>
+							<div>embed</div>
+							<div>stand out</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-offset-2 col-md-8" id="createBtn">
+							create a viddyad button here
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="dashboard.js"></script>
+</body>
+</html>

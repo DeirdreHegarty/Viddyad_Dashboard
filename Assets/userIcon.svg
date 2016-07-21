@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Twitter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-Landing-State---With-Media" transform="translate(-339.000000, -514.000000)" fill="#FFFFFF">
+            <g id="Group-21" transform="translate(244.000000, 490.000000)">
+                <g id="Group-20">
+                    <g id="Twitter" transform="translate(95.000000, 24.000000)">
+                        <rect id="Rectangle-37" fill-opacity="0.0963541667" x="0" y="0" width="50" height="50" rx="2"></rect>
+                        <g id="Group" transform="translate(13.953125, 13.687500)">
+                            <path d="M10.5419391,13.9206094 C4.55494219,13.9206094 1.02726562,16.1441438 0.60665625,20.1974344 L0.417445312,22.359375 L2.49619219,22.359375 C2.69004375,20.25 2.20096406,16.0247109 10.5419391,16.0247109 C18.7468172,16.0247109 18.3783516,19.828125 18.5892891,22.359375 L20.6680781,22.359375 C20.4654516,20.25 20.9140312,13.9206094 10.5419391,13.9206094 L10.5419391,13.9206094 Z" id="Shape"></path>
+                            <path d="M16.0109578,5.631525 C15.8473969,2.66009062 13.4965406,0.419428125 10.5427406,0.419428125 C7.5897,0.419428125 5.23846406,2.66009062 5.07443906,5.63131406 C4.55810625,14.9891766 16.5278812,14.9995969 16.0109578,5.631525 L16.0109578,5.631525 Z M7.14462188,5.74859531 C7.38217969,1.4445 13.7036813,1.45217813 13.9408172,5.74859531 C14.2960781,12.1772109 6.78893906,12.1838766 7.14462188,5.74859531 L7.14462188,5.74859531 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-Landing-State---With-Media" transform="translate(-285.000000, -739.000000)">
+            <g id="Group-21" transform="translate(244.000000, 490.000000)">
+                <g id="Group-20">
+                    <g id="Group-19" transform="translate(25.000000, 233.000000)">
+                        <path d="M27,26.1588593 C27,26.6234085 26.6201992,27 26.1646056,27 L17.8353944,27 C17.3740188,27 17,26.6201992 17,26.1646056 L17,17.8353944 C17,17.3740188 17.3798008,17 17.8353944,17 L26.1646056,17 C26.6259812,17 27,17.3690373 27,17.8401762" id="Rectangle-26" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Group-13" transform="translate(27.200000, 22.000000) rotate(-90.000000) translate(-27.200000, -22.000000) translate(24.200000, 17.000000)" fill="#FFFFFF">
+                            <path d="M2.23847418,7.19734138 L2.23847418,0.696598639 C2.23847418,0.311877834 2.52501194,2.27373675e-13 2.87847418,2.27373675e-13 C3.23193642,2.27373675e-13 3.51847418,0.311877834 3.51847418,0.696598639 L3.51847418,7.20261816 L4.71787697,6.09465967 C4.98736614,5.84571676 5.39124147,5.88169276 5.61995776,6.17501431 C5.84867405,6.46833585 5.81562111,6.90792804 5.54613194,7.15687094 L3.30046632,9.23132359 C3.1816358,9.34501712 3.03157962,9.40347553 2.88057671,9.40409009 C2.72366471,9.40302882 2.57375224,9.34413524 2.45520059,9.23009733 L0.224585506,7.15838857 C-0.0442930101,6.90866463 -0.0762692164,6.4689781 0.15316465,6.17632121 C0.382598516,5.88366432 0.786560517,5.84886029 1.05543903,6.09858422 L2.23847418,7.19734138 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
