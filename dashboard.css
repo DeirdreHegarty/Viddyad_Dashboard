@@ -143,10 +143,15 @@ hr{
 	margin-bottom: 10px;
 	border: 1px solid rgba(255,255,255,0.20);
 }
+#hrtag{
+	margin-top: 5px;
+	opacity: 0.34;
+	border: 1px solid #979797;
+}
 /***** white col *****/
 #whitecol{
-	margin-left:10px;
-	margin-right:-10px;
+	margin-left:25px;
+	margin-right:-25px;
 	background: #FFFFFF;
 	border: 1px solid #EAEAEA;
 	border-radius: 4px;
@@ -159,4 +164,192 @@ hr{
 	font-size: 12px;
 	background-color: #F6F6F6;
 	letter-spacing: 1.07px;
+}
+/************ your videos *****************/
+#adVidRows{
+	margin-top:10px;
+}
+#myAd{
+	font-family: 'Open Sans', Semibold;
+	font-size: 13px;
+	color: #181818;
+	line-height: 10px;
+}
+#myAdDate {
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-size: 10px;
+	color: rgba(24,24,24,0.70);
+	line-height: 8px;
+}
+#myAdLength{
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-size: 10px;
+	color: rgba(24,24,24,0.70);
+	line-height: 8px;
+}
+#myAdPrice{
+	width:29px;
+	height:15px;
+	background: #181818;
+	border: 1px solid #353535;
+	border-radius: 2px;
+	/* text */
+	font-family: 'Open Sans',Bold;
+	font-size: 7px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	line-height: 15px;
+	text-align: center;
+
+}
+#buyVidBtn{
+	margin-left: 20px;
+	height:30px;
+	width:88px;
+	background-image: linear-gradient(180deg, #F06207 0%, #FF3416 100%);
+	border-radius: 5px;
+	/* text */
+	font-family: 'Open Sans', Semibold;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	line-height: 30px;
+	text-align: center;
+
+}
+#editVidBtn{
+	margin-left: 20px;
+	height:30px;
+	width:88px;
+	background: #F6F6F6;
+	border: 1px solid rgba(24,24,24,0.10);
+	border-radius: 5px;
+	/* text */
+	font-family: 'Open Sans', Semibold;
+	font-size: 10px;
+	color: #5E5E5E;
+	letter-spacing: 0px;
+	line-height: 30px;
+	text-align: center;
+}
+#myVidInfo{
+	padding-left: 30px;
+}
+#butRow{
+	padding-top: 20px;
+}
+/************ your favourites *************/
+#fbTop{
+	margin-left: 25px;
+	width:155px;
+	/* To center items in a div */
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 10px;
+	height:26.35px;
+	background: #364D88;
+	border-radius: 4px 4px 0px 0px;
+}
+#liTop{
+	margin-left: 15px;
+	width:155px;
+	/* To center items in a div */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	height:26.35px;
+	background: #317BB5;
+	border-radius: 4px 4px 0px 0px;
+}
+#evTop{
+	width:155px;
+	/* To center items in a div */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	height:26.35px;
+	background: #F06107;
+	border-radius: 4px 4px 0px 0px;
+}
+#soTop{
+	width:155px;
+	/* To center items in a div */
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 10px;
+	height:26.35px;
+	background: #353535;
+	border-radius: 4px 4px 0px 0px;
+}
+#fbBody{
+	margin-left: 25px;
+	width:155px;
+	text-align:center;
+	line-height: 5px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	background:rgb(75,94,152);
+	border-radius: 0px 0px 4px 4px;
+	font-family: 'Open Sans';
+	font-size: 9.15px;
+	color: #FFFFFF;
+}
+#liBody{
+	margin-left: 15px;
+	width:155px;
+	text-align:center;
+	line-height: 5px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	background:rgb(83,141,197);
+	border-radius: 0px 0px 4px 4px;
+	font-family: 'Open Sans';
+	font-size: 9.15px;
+	color: #FFFFFF;
+}
+#evBody{
+	width:155px;
+	text-align:center;
+	line-height: 5px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	background:rgb(238,123, 4);
+	border-radius: 0px 0px 4px 4px;
+	font-family: 'Open Sans';
+	font-size: 9.15px;
+	color: #FFFFFF;
+}
+#soBody{
+	width:155px;
+	text-align:center;
+	line-height: 5px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	background:rgb(72,72,72);
+	border-radius: 0px 0px 4px 4px;
+	font-family: 'Open Sans';
+	font-size: 9.15px;
+	color: #FFFFFF;
+}
+#createBtn{
+	margin-left: 25px;
+	height:59px;
+	margin-top: 59px;
+	margin-bottom:59px;
+	background-image: linear-gradient(180deg, #F06207 0%, #FF3416 100%);
+	border: 1px solid rgba(24,24,24,0.10);
+	border-radius: 5px;
+	font-family: 'Open Sans', Semibold;
+	font-size: 14.7px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	line-height: 59px;
+	text-align: center;
+
 }
