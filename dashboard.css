@@ -47,8 +47,8 @@ body{
 	font-size: 13.35px;
 	color: #FFFFFF;
 	letter-spacing: 0px;
-	margin-right:20px;
-	margin-left: 20px;
+	margin-right:-16px;
+	margin-left: 16px;
 }
 #dashboardHomeBtn{
 	padding-top: 30px;
@@ -63,8 +63,8 @@ body{
 	font-size: 13.35px;
 	color: #D8D8D8;
 	letter-spacing: 0px;
-	margin-right:20px;
-	margin-left: 20px;
+	/*margin-right:20px;*/
+	margin-left: 85px;
 }
 #uploadMediaBtn{
 	padding-top: 30px;
@@ -79,8 +79,8 @@ body{
 	font-size: 13.35px;
 	color: #D8D8D8;
 	letter-spacing: 0px;
-	margin-right:20px;
-	margin-left: 20px;
+	/*margin-right:20px;*/
+	margin-left: 85px;
 
 }
 #myMediaBtn{
@@ -96,8 +96,8 @@ body{
 	font-size: 13.35px;
 	color: #D8D8D8;
 	letter-spacing: 0px;
-	margin-right:20px;
-	margin-left: 20px;
+	/*margin-right:20px;*/
+	margin-left: 85px;
 }
 /*-- second container */
 #userImg{
@@ -152,6 +152,7 @@ hr{
 #whitecol{
 	margin-left:25px;
 	margin-right:-25px;
+	padding-bottom:30px;
 	background: #FFFFFF;
 	border: 1px solid #EAEAEA;
 	border-radius: 4px;
@@ -240,7 +241,22 @@ hr{
 #butRow{
 	padding-top: 20px;
 }
+#myAdPic{
+	max-height:67px;
+	max-width:118px;
+}
 /************ your favourites *************/
+#genFavVid{
+	max-height:67px;
+	max-width:118px;
+	margin-bottom: 10px;
+	margin-right:20px;
+}
+#genVidRows{
+	margin-left: 20px;
+
+}
+/************ promote your videos *************/
 #fbTop{
 	margin-left: 25px;
 	width:155px;
