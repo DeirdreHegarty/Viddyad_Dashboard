@@ -1,16 +1,23 @@
 <!DOCTYPE>
 <html>
 <head>
-	<title>Dashboard</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
 <!-- your dashboard header-->
 <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+		</div>
+	</div>
+
 	<div class="row">
 		<div class="col-md-12 col-sm-12 col-xs-12" id="dashboardHeader">
 			<h1 id="headerText">YOUR DASHBOARD</h1>
@@ -21,10 +28,10 @@
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10">
 					<div class="row" id="navBtnsRow2">
-						<div class="col-md-2" id="createViddyAdBtn"><img src="Assets/createViddyad.svg"></img><br/><p>Create a Viddyad</p></div>
-						<div class="col-md-2" id="dashboardHomeBtn"><img src="Assets/dashHome.svg"></img><br/><p>Dashboard Home</p></div>
-						<div class="col-md-2" id="uploadMediaBtn"><img src="Assets/uploadMedia.svg"></img><br/><p>Upload Media</p></div>
-						<div class="col-md-2" id="myMediaBtn"><img src="Assets/myMedia.svg"></img><br/><p>My Media</p></div>
+						<a href=""><div class="col-md-2" id="createViddyAdBtn"><img src="Assets/createViddyad.svg"></img><br/><p id="topBtnTxt">Create a Viddyad</p></div></a>
+						<a href=""><div class="col-md-2" id="dashboardHomeBtn"><img src="Assets/dashHome.svg"></img><br/><p id="topBtnTxt">Dashboard Home</p></div></a>
+						<a href=""><div class="col-md-2" id="uploadMediaBtn"><img src="Assets/uploadMedia.svg"></img><br/><p id="topBtnTxt">Upload Media</p></div></a>
+						<a href=""><div class="col-md-2" id="myMediaBtn"><img src="Assets/myMedia.svg"></img><br/><p id="topBtnTxt">My Media</p></div></a>
 					</div>
 				</div>
 			</div>
@@ -50,22 +57,28 @@
 					</div>
 					<hr>
 					<div class="row">
+					<a href="">
 						<div class="col-md-offset-1 col-md-10" id="userBtns">
 							<img id="userBtnsImgs" src="Assets/smallMedia.svg"></img>
-							<p id="userBtnsText">Media</p>
+							<p id="userBtnsText">My Media</p>
 						</div>
+					</a>
 					</div>
 					<div class="row">
+					<a href="">
 						<div class=" col-md-offset-1 col-md-10" id="userBtns">
-							<img d="userBtnsImgs" src="Assets/smallAccount.svg"></img>
+							<img id="userBtnsImgs" src="Assets/smallAccount.svg"></img>
 							<p id="userBtnsText">Account</p>
 						</div>
+					</a>
 					</div>
 					<div class="row">
+					<a href="">
 						<div class="col-md-offset-1 col-md-10" id="userBtns">
-							<img d="userBtnsImgs" src="Assets/log.svg"></img>
+							<img id="userBtnsImgs" src="Assets/log.svg"></img>
 							<p id="userBtnsText">Logout</p>
 						</div>
+					</a>
 					</div>
 				</div>
 			<!-- end of user col -->
@@ -75,16 +88,16 @@
 				<div class="col-md-9" id="whitecol">
 					<!-- start of top white col -->
 					<div class="row">
-						<div class="col-md-12" >
-							<p id="whiteHeadings">YOUR VIDEOS</p>
+						<div class="col-md-12" id="whiteHeadings">
+							<p>YOUR VIDEOS</p>
 						</div>
 					</div>
 
-
+				<div id ="testRows">
 					<!-- dynamically generated code here for users' videos -->
 					<div class="row" id="adVidRows">
 						<div class="col-md-2" >
-							<img src="Assets/tempImg.svg"></img>
+							<img id="myAdPic" src="Assets/tempImg.svg"></img>
 						</div>
 						<div class="col-md-4" id="myVidInfo">
 							<p id="myAd">My Ad</p>
@@ -96,22 +109,25 @@
 						<div class="col-md-6">
 							<div class="row" id="butRow">
 									<div class="col-md-4"></div>
-									<div class="col-md-4" id="buyVidBtn">Buy Video</div>
-									<div class="col-md-4"id="editVidBtn">Edit Video</div>
+									<a href="">
+										<div class="col-md-4" id="buyVidBtn">Buy Video</div>
+									</a>
+									<a href="">
+										<div class="col-md-4"id="editVidBtn">Edit Video</div>
+									</a>
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" id ="hrRow">
 						<div class="col-md-12">
 							<hr id="hrtag">
 						</div>
 					</div>
 					<!--end of generated block -->
-
 					<!-- dynamically generated code here for users' videos -->
 					<div class="row" id="adVidRows">
 						<div class="col-md-2" >
-							<img id="myAdPic"src="Assets/tempImg.svg"></img>
+							<img id="myAdPic" src="Assets/tempImg.svg"></img>
 						</div>
 						<div class="col-md-4" id="myVidInfo">
 							<p id="myAd">My Ad</p>
@@ -123,22 +139,25 @@
 						<div class="col-md-6">
 							<div class="row" id="butRow">
 									<div class="col-md-4"></div>
-									<div class="col-md-4" id="buyVidBtn">Buy Video</div>
-									<div class="col-md-4"id="editVidBtn">Edit Video</div>
+									<a href="">
+										<div class="col-md-4" id="buyVidBtn">Buy Video</div>
+									</a>
+									<a href="">
+										<div class="col-md-4"id="editVidBtn">Edit Video</div>
+									</a>
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" id ="hrRow">
 						<div class="col-md-12">
 							<hr id="hrtag">
 						</div>
 					</div>
 					<!--end of generated block -->
-
 					<!-- dynamically generated code here for users' videos -->
 					<div class="row" id="adVidRows">
 						<div class="col-md-2" >
-							<img src="Assets/tempImg.svg"></img>
+							<img id="myAdPic" src="Assets/tempImg.svg"></img>
 						</div>
 						<div class="col-md-4" id="myVidInfo">
 							<p id="myAd">My Ad</p>
@@ -150,22 +169,26 @@
 						<div class="col-md-6">
 							<div class="row" id="butRow">
 									<div class="col-md-4"></div>
-									<div class="col-md-4" id="buyVidBtn">Buy Video</div>
-									<div class="col-md-4"id="editVidBtn">Edit Video</div>
+									<a href="">
+										<div class="col-md-4" id="buyVidBtn">Buy Video</div>
+									</a>
+									<a href="">
+										<div class="col-md-4"id="editVidBtn">Edit Video</div>
+									</a>
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" id ="hrRow">
 						<div class="col-md-12">
 							<hr id="hrtag">
 						</div>
 					</div>
 					<!--end of generated block -->
 
-
+				</div>
 					<div class="row">
-						<div class="col-md-12">
-							<p id="whiteHeadings">YOUR FAVOURITES</p>
+						<div class="col-md-12" id="whiteHeadings">
+							<p>YOUR FAVOURITES</p>
 						</div>
 					</div>
 
@@ -178,70 +201,46 @@
 
 						<!-- dynamically generated code here for users' favourites -->
 						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
+							<a href="">
+								<img src="Assets/tempImg.svg"></img>
+							</a>
 						</div>
 						<!-- end of dynamically generated code block-->
 						<!-- dynamically generated code here for users' favourites -->
 						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
+							<a href="">
+								<img src="Assets/tempImg.svg"></img>
+							</a>
 						</div>
 						<!-- end of dynamically generated code block-->
 						<!-- dynamically generated code here for users' favourites -->
 						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
+							<a href="">
+								<img src="Assets/tempImg.svg"></img>
+							</a>
 						</div>
 						<!-- end of dynamically generated code block-->
 						<!-- dynamically generated code here for users' favourites -->
 						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
+							<a href="">
+								<img src="Assets/tempImg.svg"></img>
+							</a>
 						</div>
 						<!-- end of dynamically generated code block-->
 						<!-- dynamically generated code here for users' favourites -->
 						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
+							<a href="">
+								<img src="Assets/tempImg.svg"></img>
+							</a>
 						</div>
 						<!-- end of dynamically generated code block-->
 						<!-- dynamically generated code here for users' favourites -->
 						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
+							<a href="">
+								<img src="Assets/tempImg.svg"></img>
+							</a>
 						</div>
 						<!-- end of dynamically generated code block-->
-						<!-- dynamically generated code here for users' favourites -->
-						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
-						</div>
-						<!-- end of dynamically generated code block-->
-						<!-- dynamically generated code here for users' favourites -->
-						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
-						</div>
-						<!-- end of dynamically generated code block-->
-						<!-- dynamically generated code here for users' favourites -->
-						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
-						</div>
-						<!-- end of dynamically generated code block-->
-						<!-- dynamically generated code here for users' favourites -->
-						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
-						</div>
-						<!-- end of dynamically generated code block-->
-						<!-- dynamically generated code here for users' favourites -->
-						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
-						</div>
-						<!-- end of dynamically generated code block-->
-						<!-- dynamically generated code here for users' favourites -->
-						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
-						</div>
-						<!-- end of dynamically generated code block-->
-						<!-- dynamically generated code here for users' favourites -->
-						<div class="col-md-2" id="genFavVid">
-							<img src="Assets/tempImg.svg"></img>
-						</div>
-						<!-- end of dynamically generated code block-->
-
 
 							
 					</div>			
@@ -258,51 +257,55 @@
 				<div class="col-md-3"></div>
 				<div class="col-md-9" id="whitecol">
 					<div class="row">
-						<div class="col-md-12">
-							<p id="whiteHeadings">PROMOTE YOUR VIDEO ADS</p>
+						<div class="col-md-12" id="whiteHeadings">
+							<p>PROMOTE YOUR VIDEO ADS</p>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="row">
 
-
 								<div class="col-md-6" id="firstTwo">
 									<div class="row">
-										<div class="col-md-5">
-											<div class="row"> 
-												<div class="col-md-12" id="fbTop">
-													<img src="Assets/FB-Logo.svg"></img>
+											<div class="col-md-5">
+												<div class="row"> 
+													<a href="">
+													<div class="col-md-12" id="fbTop">
+														<img src="Assets/FB-Logo.svg"></img>
+													</div>
 												</div>
-											</div>
-											<div class="row"> 
-												<div class="col-md-12" id="fbBody">
-													<p>How to start a</p> 
-													<p>Facebook campaign</p>
+												<div class="row"> 
+													<div class="col-md-12" id="fbBody">
+														<p>How to start a</p> 
+														<p>Facebook campaign</p>
+													</div>
 												</div>
+												</a>
 											</div>
-										</div>
 										<div class="col-md-1"></div>
-										<div class="col-md-5">
-											<div class="row"> 
-												<div class="col-md-12" id="liTop">
-													<img src="Assets/LI-Logo.svg"></img>
+											<div class="col-md-5">
+												<div class="row"> 
+													<a href="">
+													<div class="col-md-12" id="liTop">
+														<img src="Assets/LI-Logo.svg"></img>
+													</div>
 												</div>
-											</div>
-											<div class="row"> 
-												<div class="col-md-12" id="liBody">
-													<p>How to start a</p>
-													<p>LinkedIn campaign</p>
+												<div class="row"> 
+													<div class="col-md-12" id="liBody">
+														<p>How to start a</p>
+														<p>LinkedIn campaign</p>
+													</div>
 												</div>
+												</a>
 											</div>
 										</div>
 									</div>
-								</div>
 
 
 								<div class="col-md-6" id="secondTwo">
 									<div class="col-md-5">
 										<div class="row"> 
+										<a href="">
 											<div class="col-md-12" id="evTop">
 												<img src="Assets/EV-Logo.svg"></img>
 											</div>
@@ -313,10 +316,12 @@
 												<p>video on your site</p>
 											</div>
 										</div>
+										</a>
 									</div>
 									<div class="col-md-1"></div>
 									<div class="col-md-5">
 										<div class="row"> 
+										<a href="">
 											<div class="col-md-12" id="soTop">
 												<img src="Assets/SO-Logo.svg"></img>
 											</div>
@@ -327,6 +332,7 @@
 												<p>video stand out</p>
 											</div>
 										</div>
+										</a>
 									</div>
 								</div>
 
@@ -341,9 +347,11 @@
 				<div class="col-md-9">
 					<div class="row">
 						<div class="col-md-2"></div>
+					<a href="">
 						<div class="col-md-8" id="createBtn">
 							<p>Create Another Viddyad</p>
 						</div>
+					</a>
 					</div>
 				</div><br/>
 			</div>	
